@@ -1,0 +1,840 @@
+{
+  "lecture_id": "test-en-90s",
+  "language": "en",
+  "segments": [
+    {
+      "timestamp": "2026-06-05T16:35:53.932639+00:00",
+      "start": 4.116,
+      "end": 8.616,
+      "text": "Welcome back Aliens, my name is Da Vin Reddy and let's continue with this series on Python."
+    },
+    {
+      "timestamp": "2026-06-05T16:36:00.272592+00:00",
+      "start": 8.726,
+      "end": 13.486,
+      "text": "In fact in the earlier videos we have talked about what is python, we have we have installed"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:06.377620+00:00",
+      "start": 13.486,
+      "end": 19.006,
+      "text": "to surface and we have also worked with certain operations that we had fun in the last session."
+    },
+    {
+      "timestamp": "2026-06-05T16:36:12.860852+00:00",
+      "start": 19.006,
+      "end": 23.566,
+      "text": "Now in this video where I talk about what is variable, but first of all, why do we need"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:12.863852+00:00",
+      "start": 23.566,
+      "end": 24.566,
+      "text": "one?"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:12.865853+00:00",
+      "start": 24.566,
+      "end": 26.046,
+      "text": "Let's try something here."
+    },
+    {
+      "timestamp": "2026-06-05T16:36:20.829885+00:00",
+      "start": 26.046,
+      "end": 30.126,
+      "text": "So what I will do is I will go back to my previous example you know we were adding 2 and 3 so"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:20.831885+00:00",
+      "start": 30.126,
+      "end": 32.926,
+      "text": "we have done with that right we are saying 2 plus 3."
+    },
+    {
+      "timestamp": "2026-06-05T16:36:26.710801+00:00",
+      "start": 32.926,
+      "end": 37.366,
+      "text": "remember in max what we do is we of course we work with numbers but then when the moment"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:32.494748+00:00",
+      "start": 37.366,
+      "end": 44.086,
+      "text": "you start with algebra you have this concept of using x and y so what we do is we say let"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:39.252099+00:00",
+      "start": 44.086,
+      "end": 50.806,
+      "text": "x is equal to five. Can you do that here? So we have x equal to two. So I'm storing this value two"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:45.135082+00:00",
+      "start": 50.806,
+      "end": 57.046,
+      "text": "in a variable called as x and that's a new word now what is variable so basically variable is a"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:52.251072+00:00",
+      "start": 57.046,
+      "end": 62.566,
+      "text": "container where you can put your values example we are storing two here in a container and the name of"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:59.071571+00:00",
+      "start": 62.566,
+      "end": 66.726,
+      "text": "of that container is x. Of course, you can give any name doesn't matter. You can say"
+    },
+    {
+      "timestamp": "2026-06-05T16:36:59.073043+00:00",
+      "start": 66.726,
+      "end": 72.126,
+      "text": "abc, you can say a box, you can give any name, right? So we can say x equal to two and the"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:11.044619+00:00",
+      "start": 72.126,
+      "end": 76.926,
+      "text": "moment I say enter now this is the first time when you said enter and you have not got any"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:11.048615+00:00",
+      "start": 76.926,
+      "end": 81.726,
+      "text": "output right so in the earlier prompts what we did is when we said any any operation it"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:18.229454+00:00",
+      "start": 81.726,
+      "end": 86.806,
+      "text": "was giving you some output. Here, we have not got any output. It's just an assignment"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:18.233889+00:00",
+      "start": 86.806,
+      "end": 92.126,
+      "text": "operation. So in assignment, what we do is we have a variable name equal to a value."
+    },
+    {
+      "timestamp": "2026-06-05T16:37:24.350816+00:00",
+      "start": 92.126,
+      "end": 98.126,
+      "text": "we are assigning 2 to x. Okay, that works. So can I do this now? Can I say x plus 3?"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:29.880846+00:00",
+      "start": 98.126,
+      "end": 101.166,
+      "text": "yes right because in x we have a value which is 2"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:36.971881+00:00",
+      "start": 101.166,
+      "end": 106.766,
+      "text": "oh it works you can see we got five that works can i store three as well let's try so i will say"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:42.906246+00:00",
+      "start": 106.766,
+      "end": 114.846,
+      "text": "y is equal to 3 now we have two variables x and y so we have two boxes and now I will say x plus"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:49.217209+00:00",
+      "start": 114.846,
+      "end": 121.326,
+      "text": "y. Oh, it works. Right? It works. So we can say x has to y has three and we are adding them. Okay."
+    },
+    {
+      "timestamp": "2026-06-05T16:37:54.299161+00:00",
+      "start": 121.326,
+      "end": 127.326,
+      "text": "So that's why we can we can use them but then why they are called as variables now normally when you"
+    },
+    {
+      "timestamp": "2026-06-05T16:37:59.559709+00:00",
+      "start": 127.326,
+      "end": 131.606,
+      "text": "say variable this term simply means you can change the value can we change here"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:04.785061+00:00",
+      "start": 131.606,
+      "end": 137.806,
+      "text": "Can I say x equal to 9? Can I change the value from 2 to 9? Let's try and the moment I say enter"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:14.648020+00:00",
+      "start": 137.806,
+      "end": 146.606,
+      "text": "oh it works there there was no error but now if I try to do this if I say x plus y x will"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:21.201203+00:00",
+      "start": 146.606,
+      "end": 151.726,
+      "text": "have a value which is 2 or 9 that's a question because we are changing it but there's no"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:27.150521+00:00",
+      "start": 151.726,
+      "end": 157.526,
+      "text": "error enter all you got 12 that means the value of x now is 9 okay so we can"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:27.152855+00:00",
+      "start": 157.526,
+      "end": 162.046,
+      "text": "change the value and now we can justify that word as variables right so what is"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:38.933679+00:00",
+      "start": 162.046,
+      "end": 168.206,
+      "text": "It's a box where you can have a value now doing to define the type of the variable you don't need to so the moment"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:45.149266+00:00",
+      "start": 168.206,
+      "end": 173.086,
+      "text": "I assign a value you can it automatically detects what type of value you are assigning. So in this"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:45.152534+00:00",
+      "start": 173.086,
+      "end": 178.846,
+      "text": "case it is integer. Now let's do this thing. What if I say x and if I say enter what it will do."
+    },
+    {
+      "timestamp": "2026-06-05T16:38:50.914804+00:00",
+      "start": 178.846,
+      "end": 184.606,
+      "text": "So the moment you say X and Enter, it will print the value of X in this case which is 9, right?"
+    },
+    {
+      "timestamp": "2026-06-05T16:38:56.656232+00:00",
+      "start": 184.606,
+      "end": 189.326,
+      "text": "what if I use a variable abc now of course we have not defined this variable right and we are"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:02.626291+00:00",
+      "start": 189.326,
+      "end": 190.606,
+      "text": "we are still trying to use it."
+    },
+    {
+      "timestamp": "2026-06-05T16:39:02.628637+00:00",
+      "start": 190.606,
+      "end": 193.006,
+      "text": "Now when I say enter, you've got an error."
+    },
+    {
+      "timestamp": "2026-06-05T16:39:02.628637+00:00",
+      "start": 193.006,
+      "end": 195.546,
+      "text": "The error is it says, name error,"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:08.455809+00:00",
+      "start": 195.546,
+      "end": 199.826,
+      "text": "ABC name ABC is not defined and that's why we have not defined ABC yet"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:14.165617+00:00",
+      "start": 199.826,
+      "end": 204.826,
+      "text": "So if you are using a variable which is not defined, so it will of course give you an error."
+    },
+    {
+      "timestamp": "2026-06-05T16:39:19.765254+00:00",
+      "start": 204.826,
+      "end": 208.986,
+      "text": "Now I will do one more thing. I will say x plus 10. So of course it will give you 19."
+    },
+    {
+      "timestamp": "2026-06-05T16:39:24.822979+00:00",
+      "start": 210.0,
+      "end": 216.88,
+      "text": "Now, what if I want to add 19 with y, I mean something in this way, I would say 19 plus y,"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:29.667648+00:00",
+      "start": 216.88,
+      "end": 221.76,
+      "text": "this 19 this is the output of the previous operation right now if you want to use the"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:34.591862+00:00",
+      "start": 221.76,
+      "end": 226.12,
+      "text": "output of the previous operation we can use underscore. So underscore represents"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:34.593861+00:00",
+      "start": 226.12,
+      "end": 230.12,
+      "text": "the output of the previous operation and if I say enter you can see we got 22 so"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:39.269447+00:00",
+      "start": 230.12,
+      "end": 232.28,
+      "text": "which is 19 plus 3, which is 22."
+    },
+    {
+      "timestamp": "2026-06-05T16:39:39.271443+00:00",
+      "start": 232.28,
+      "end": 233.6,
+      "text": "So even this works, right?"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:43.770685+00:00",
+      "start": 233.6,
+      "end": 237.64,
+      "text": "So this is amazing, you know, there are so many things you can work with this."
+    },
+    {
+      "timestamp": "2026-06-05T16:39:48.498274+00:00",
+      "start": 237.64,
+      "end": 240.24,
+      "text": "So we can use variables for numbers, right?"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:48.501275+00:00",
+      "start": 240.24,
+      "end": 242.72,
+      "text": "So we can use it for float or integer."
+    },
+    {
+      "timestamp": "2026-06-05T16:39:48.504785+00:00",
+      "start": 242.72,
+      "end": 243.56,
+      "text": "What about string?"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:53.220308+00:00",
+      "start": 243.56,
+      "end": 248.0,
+      "text": "Can I use variables with string or the string variable?"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:58.199261+00:00",
+      "start": 248.0,
+      "end": 250.64,
+      "text": "Let's try, so I will create a variable as name"
+    },
+    {
+      "timestamp": "2026-06-05T16:39:58.203348+00:00",
+      "start": 250.64,
+      "end": 253.84,
+      "text": "and I will use a name as YouTube."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:02.953042+00:00",
+      "start": 253.84,
+      "end": 255.44,
+      "text": "And if I say enter, oh it works."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:02.956045+00:00",
+      "start": 255.44,
+      "end": 257.56,
+      "text": "And if I print name, we got YouTube."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:07.343465+00:00",
+      "start": 257.56,
+      "end": 259.6,
+      "text": "So it is perfectly working."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:07.346467+00:00",
+      "start": 259.6,
+      "end": 261.72,
+      "text": "So we can use string as well."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:11.949539+00:00",
+      "start": 261.72,
+      "end": 265.52,
+      "text": "So example, I can say name plus YouTube rocks."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:11.952543+00:00",
+      "start": 265.52,
+      "end": 266.96,
+      "text": "So you can see we got YouTube rocks."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:16.505647+00:00",
+      "start": 266.96,
+      "end": 269.24,
+      "text": "So it is name, which is YouTube plus rocks."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:16.509313+00:00",
+      "start": 269.24,
+      "end": 272.32,
+      "text": "Okay, this, you want this work, that's perfectly fine."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:20.743633+00:00",
+      "start": 272.32,
+      "end": 273.72,
+      "text": "In fact, let me just do an experiment."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:25.858416+00:00",
+      "start": 273.72,
+      "end": 277.4,
+      "text": "Can I say name and space rocks?"
+    },
+    {
+      "timestamp": "2026-06-05T16:40:25.861373+00:00",
+      "start": 277.4,
+      "end": 278.36,
+      "text": "Okay, this is not working."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:25.863374+00:00",
+      "start": 278.36,
+      "end": 280.2,
+      "text": "So we have to make sure that you put plus there"
+    },
+    {
+      "timestamp": "2026-06-05T16:40:30.215703+00:00",
+      "start": 280.2,
+      "end": 283.92,
+      "text": "because if you have plus then only it will try to interpret that."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:35.167604+00:00",
+      "start": 283.92,
+      "end": 286.8,
+      "text": "But there's this one thing which is very fancy here, you know."
+    },
+    {
+      "timestamp": "2026-06-05T16:40:35.170603+00:00",
+      "start": 286.8,
+      "end": 288.84,
+      "text": "So we'll talk about YouTube. It's a string, right?"
+    },
+    {
+      "timestamp": "2026-06-05T16:40:45.795180+00:00",
+      "start": 288.84,
+      "end": 295.72,
+      "text": "And it's a combination of characters that means even if I want to fetch one character, it should be able to do that"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.800487+00:00",
+      "start": 300.0,
+      "end": 301.2,
+      "text": "one character, how will I do that?"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.806064+00:00",
+      "start": 301.2,
+      "end": 302.96,
+      "text": "So let's say if I have a YouTube here"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.808998+00:00",
+      "start": 302.96,
+      "end": 306.04,
+      "text": "and YouTube has seven letters or seven characters,"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.813011+00:00",
+      "start": 306.04,
+      "end": 308.48,
+      "text": "if you when you break it down, it will create an array"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.817019+00:00",
+      "start": 308.48,
+      "end": 310.4,
+      "text": "or you can say collection of characters,"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.820215+00:00",
+      "start": 310.4,
+      "end": 311.94,
+      "text": "the numbering starts with zero"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.823100+00:00",
+      "start": 311.94,
+      "end": 313.24,
+      "text": "because normally in computers,"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.827280+00:00",
+      "start": 313.24,
+      "end": 315.04,
+      "text": "numbering always starts with zero."
+    },
+    {
+      "timestamp": "2026-06-05T16:41:04.830802+00:00",
+      "start": 315.04,
+      "end": 317.12,
+      "text": "So here, if you want to fetch it,"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:10.934914+00:00",
+      "start": 317.12,
+      "end": 320.56,
+      "text": "We have to use a square bracket and you have to mention zero."
+    },
+    {
+      "timestamp": "2026-06-05T16:41:15.763244+00:00",
+      "start": 320.56,
+      "end": 325.36,
+      "text": "So we are specifying, hey I want to fetch the first letter of names, in this case it"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:15.768224+00:00",
+      "start": 325.36,
+      "end": 328.16,
+      "text": "is Y, how it works?"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:20.774702+00:00",
+      "start": 328.16,
+      "end": 334.56,
+      "text": "So now I will fetch the last one which is 6, which is E in this case, we got E that works."
+    },
+    {
+      "timestamp": "2026-06-05T16:41:32.581717+00:00",
+      "start": 334.56,
+      "end": 339.84,
+      "text": "I will fetch let's say eight see we don't have eight we don't have nine characters"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:38.665404+00:00",
+      "start": 339.84,
+      "end": 345.44,
+      "text": "We only have seven characters. So the first one is zero, the last one is six. How about eight?"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:38.667410+00:00",
+      "start": 345.44,
+      "end": 351.44,
+      "text": "The moment you do that, it will give you an error. It says index error, string index out of range."
+    },
+    {
+      "timestamp": "2026-06-05T16:41:49.336604+00:00",
+      "start": 351.44,
+      "end": 354.34,
+      "text": "So of course you are going out of your limit right? So you cannot do that"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:49.339693+00:00",
+      "start": 355.04,
+      "end": 359.28,
+      "text": "Okay, can I use negative numbers? Let's try I will use minus one"
+    },
+    {
+      "timestamp": "2026-06-05T16:41:55.222707+00:00",
+      "start": 359.28,
+      "end": 365.0,
+      "text": "So I want to I want your guess here what you think it will what it will do come on think about it"
+    },
+    {
+      "timestamp": "2026-06-05T16:42:00.740991+00:00",
+      "start": 365.0,
+      "end": 369.12,
+      "text": "Okay, so let me just enter it and let's see what happens. So when I say enter you got e"
+    },
+    {
+      "timestamp": "2026-06-05T16:42:06.709844+00:00",
+      "start": 369.12,
+      "end": 374.12,
+      "text": "okay so the the answer is when you say minus number it will start from right"
+    },
+    {
+      "timestamp": "2026-06-05T16:42:06.715038+00:00",
+      "start": 374.12,
+      "end": 378.6,
+      "text": "to left okay so it will it will start with the ending so which is E in this"
+    },
+    {
+      "timestamp": "2026-06-05T16:42:31.303863+00:00",
+      "start": 390.0,
+      "end": 395.2,
+      "text": "case that means if i say minus 2 it will give you the second last data which is b that's right"
+    },
+    {
+      "timestamp": "2026-06-05T16:42:31.308215+00:00",
+      "start": 395.2,
+      "end": 401.28,
+      "text": "and if i say minus 7 which will be the first one right which is y oh it works it goes in reverse"
+    },
+    {
+      "timestamp": "2026-06-05T16:42:31.314257+00:00",
+      "start": 401.28,
+      "end": 407.84,
+      "text": "order now now what if i want to print 2 characters not 1 2 so let's i want to print y and o so in"
+    },
+    {
+      "timestamp": "2026-06-05T16:42:42.001435+00:00",
+      "start": 407.84,
+      "end": 413.16,
+      "text": "I want to start with 0 and 1, so first two characters and you can see we got y0."
+    },
+    {
+      "timestamp": "2026-06-05T16:42:59.853722+00:00",
+      "start": 420.0,
+      "end": 423.28,
+      "text": "The same thing if I do it for 1,4."
+    },
+    {
+      "timestamp": "2026-06-05T16:42:59.859192+00:00",
+      "start": 423.28,
+      "end": 424.76,
+      "text": "So come on guess."
+    },
+    {
+      "timestamp": "2026-06-05T16:42:59.863225+00:00",
+      "start": 424.76,
+      "end": 426.76,
+      "text": "So one means second factor, right?"
+    },
+    {
+      "timestamp": "2026-06-05T16:43:06.248437+00:00",
+      "start": 426.76,
+      "end": 436.12,
+      "text": "fold. So it is 1, which is O, U and T. Oh, it works. We got out. Yeah, so yeah, so out. It works."
+    },
+    {
+      "timestamp": "2026-06-05T16:43:12.951001+00:00",
+      "start": 436.12,
+      "end": 441.72,
+      "text": "Now, what if I specify only one and colon? If I don't specify the ending, what happens?"
+    },
+    {
+      "timestamp": "2026-06-05T16:43:20.369683+00:00",
+      "start": 441.72,
+      "end": 445.72,
+      "text": "In this case, it will start with one and it will go till the end."
+    },
+    {
+      "timestamp": "2026-06-05T16:43:20.373734+00:00",
+      "start": 445.72,
+      "end": 446.72,
+      "text": "Okay, that house works."
+    },
+    {
+      "timestamp": "2026-06-05T16:43:20.386738+00:00",
+      "start": 446.72,
+      "end": 448.72,
+      "text": "So if you don't specify the ending part, it will go in that way."
+    },
+    {
+      "timestamp": "2026-06-05T16:43:36.185914+00:00",
+      "start": 450.0,
+      "end": 455.36,
+      "text": "if i the ending part but not the starting point example if i say or if i if i keep it blank and"
+    },
+    {
+      "timestamp": "2026-06-05T16:43:36.200147+00:00",
+      "start": 455.36,
+      "end": 460.4,
+      "text": "after colon i will say four now in this case it will start with the first letter and it will end"
+    },
+    {
+      "timestamp": "2026-06-05T16:43:36.204745+00:00",
+      "start": 460.4,
+      "end": 466.48,
+      "text": "at three which is before four and that's why you got y or ut so this one right okay what else we"
+    },
+    {
+      "timestamp": "2026-06-05T16:43:42.249298+00:00",
+      "start": 466.48,
+      "end": 471.96,
+      "text": "we can do here. What if I specify name and I will give wrong values. I will say 3 colon"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:04.429220+00:00",
+      "start": 480.0,
+      "end": 486.48,
+      "text": "this at this case you can see we got t u b e two start with t and then it's end at e because we"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:04.431266+00:00",
+      "start": 486.48,
+      "end": 490.0,
+      "text": "don't have any other characters so if you don't if you want to avoid errors this is what this is"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:10.678949+00:00",
+      "start": 490.0,
+      "end": 495.36,
+      "text": "one way okay now can I change the letter example I don't want it to be YouTube I"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:16.865837+00:00",
+      "start": 495.36,
+      "end": 504.56,
+      "text": "want to I want it to be my tube so I will say name from 0 to 3 I want to"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:23.953252+00:00",
+      "start": 504.56,
+      "end": 510.56,
+      "text": "change this with my can I do that so I'm changing y or you to my the moment I say"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:23.957268+00:00",
+      "start": 510.56,
+      "end": 515.04,
+      "text": "enter you've got an error it says string object does not support item"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:30.331960+00:00",
+      "start": 515.04,
+      "end": 519.76,
+      "text": "assignment. So the thing is once you assign the value, you cannot change it. Not even for one"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:37.105770+00:00",
+      "start": 519.76,
+      "end": 525.36,
+      "text": "character. If I say 0, I want to change the first character to without you, even this will not work."
+    },
+    {
+      "timestamp": "2026-06-05T16:44:43.877295+00:00",
+      "start": 525.36,
+      "end": 530.08,
+      "text": "You can see we got the error. So you cannot change the value. That means strings in Python is immutable"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:50.805737+00:00",
+      "start": 530.08,
+      "end": 534.88,
+      "text": "table you cannot change the value of it that's awesome right but then that"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:50.811818+00:00",
+      "start": 534.88,
+      "end": 538.6,
+      "text": "doesn't mean you cannot you cannot change while printing example if I if I"
+    },
+    {
+      "timestamp": "2026-06-05T16:44:57.542613+00:00",
+      "start": 540.0,
+      "end": 546.96,
+      "text": "to print my tube you can do that so first I will print my and then I will give up I will give a"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:04.709252+00:00",
+      "start": 546.96,
+      "end": 552.56,
+      "text": "I want to print tube right so in that case I will say 3 colon 6 or maybe the ending part"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:11.797999+00:00",
+      "start": 552.56,
+      "end": 555.96,
+      "text": "So you can see we got my tube if you don't want space you can do that"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:11.806798+00:00",
+      "start": 555.96,
+      "end": 559.24,
+      "text": "You can say my and then without space you can type it too. So this works"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:18.612514+00:00",
+      "start": 559.24,
+      "end": 563.68,
+      "text": "Yeah, so this is how you work with string you work with variables, right?"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:18.617197+00:00",
+      "start": 563.68,
+      "end": 565.4,
+      "text": "You can have a number variables"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:26.693430+00:00",
+      "start": 565.4,
+      "end": 569.48,
+      "text": "you can have a float variables and you can have a string variable as well. In fact with"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:26.701490+00:00",
+      "start": 569.48,
+      "end": 575.28,
+      "text": "string we have one more thing. Let's say if you define a string which is let's say my"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:34.299238+00:00",
+      "start": 575.28,
+      "end": 579.52,
+      "text": "My name is available and my name here is Naveen Reddy."
+    },
+    {
+      "timestamp": "2026-06-05T16:45:34.309584+00:00",
+      "start": 579.52,
+      "end": 581.88,
+      "text": "And if I want to know the length of my name,"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:34.317638+00:00",
+      "start": 581.88,
+      "end": 582.72,
+      "text": "we can do that."
+    },
+    {
+      "timestamp": "2026-06-05T16:45:34.326768+00:00",
+      "start": 582.72,
+      "end": 584.36,
+      "text": "So we have a length function"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:43.427819+00:00",
+      "start": 584.36,
+      "end": 585.6,
+      "text": "And we can pass my name."
+    },
+    {
+      "timestamp": "2026-06-05T16:45:43.433847+00:00",
+      "start": 585.6,
+      "end": 588.12,
+      "text": "As I mentioned, there are some inbuilt functions"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:43.437865+00:00",
+      "start": 588.12,
+      "end": 589.6,
+      "text": "available in Python."
+    },
+    {
+      "timestamp": "2026-06-05T16:45:43.443391+00:00",
+      "start": 589.6,
+      "end": 591.68,
+      "text": "And one of them is LEMT."
+    },
+    {
+      "timestamp": "2026-06-05T16:45:50.910841+00:00",
+      "start": 591.68,
+      "end": 593.68,
+      "text": "So you can see we got 11 characters"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:50.920369+00:00",
+      "start": 594.3,
+      "end": 599.62,
+      "text": "So yeah, that's it. That's it from this video where we have talked about different variables assignments and stuff"
+    },
+    {
+      "timestamp": "2026-06-05T16:45:58.192122+00:00",
+      "start": 600.0,
+      "end": 605.42,
+      "text": "So I hope you are enjoying my session, let me know in the comment section and do give a like button if you're enjoying it"
+    }
+  ]
+}

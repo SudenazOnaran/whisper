@@ -1,0 +1,815 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 4.22,
+      "end": 8.36,
+      "text": "Welcome back Aliens, my name is Dhavin Reddy and let's continue with this series on Python."
+    },
+    {
+      "start": 9.12,
+      "end": 13.62,
+      "text": "In fact, in the earlier videos we have talked about what is Python, we have installed two"
+    },
+    {
+      "start": 13.62,
+      "end": 18.52,
+      "text": "softwares and we have also worked with certain operations. We had fun in the last session."
+    },
+    {
+      "start": 19.0,
+      "end": 23.34,
+      "text": "Now in this video where I talk about what is variable. But first of all, why do we"
+    },
+    {
+      "start": 23.34,
+      "end": 27.66,
+      "text": "need one? Let's try something here. So what I will do is I will go back to my previous"
+    },
+    {
+      "start": 27.66,
+      "end": 31.48,
+      "text": "example, you know, we were adding two and three. So we have done with that, right? We"
+    },
+    {
+      "start": 31.48,
+      "end": 36.22,
+      "text": "are saying two plus three. Now remember in max what we do is we of course we work with numbers."
+    },
+    {
+      "start": 36.24,
+      "end": 42.76,
+      "text": "But then when the moment you start with algebra, you have this concept of using x and y. So"
+    },
+    {
+      "start": 42.76,
+      "end": 47.94,
+      "text": "what we do is we say let x is equal to five. Can you do that here? So we have x equal"
+    },
+    {
+      "start": 47.94,
+      "end": 53.02,
+      "text": "to two. So I'm storing this value two in a variable called as x. And that's a"
+    },
+    {
+      "start": 53.02,
+      "end": 58.68,
+      "text": "new word now. What is variable? So basically variable is a container where you can put your"
+    },
+    {
+      "start": 58.68,
+      "end": 63.3,
+      "text": "values example, we are storing two here in a container. And the name of that container"
+    },
+    {
+      "start": 63.3,
+      "end": 68.76,
+      "text": "is x. Of course, you can give any name doesn't matter. You can say ABC, you can say a box,"
+    },
+    {
+      "start": 69.0,
+      "end": 72.66,
+      "text": "you can give any name, right? So we can say x equal to two. And the moment I say"
+    },
+    {
+      "start": 72.66,
+      "end": 76.88,
+      "text": "enter, now this is the first time when you said enter and you have not got any"
+    },
+    {
+      "start": 76.88,
+      "end": 80.94,
+      "text": "output, right? So in the earlier prompts, what we did is when we said any any"
+    },
+    {
+      "start": 80.94,
+      "end": 85.98,
+      "text": "operation, it was giving you some output. Here, we have not got any output. It's just"
+    },
+    {
+      "start": 85.98,
+      "end": 90.72,
+      "text": "an assignment operation. So in assignment, what we do is we have a variable name equal"
+    },
+    {
+      "start": 90.72,
+      "end": 96.32,
+      "text": "to a value. So we are assigning two to x. Okay, that works. So can I you cannot do"
+    },
+    {
+      "start": 96.32,
+      "end": 100.62,
+      "text": "this now? Can I say x plus three? Yes, right? Because in x we have a value which"
+    },
+    {
+      "start": 100.62,
+      "end": 105.42,
+      "text": "is two. Oh, it works. You can see we got five that works. Can I store three as"
+    },
+    {
+      "start": 105.42,
+      "end": 110.2,
+      "text": "well? Let's try. So I will say y is equal to three. Now we have two variables x"
+    },
+    {
+      "start": 110.2,
+      "end": 116.96,
+      "text": "and y. So we have two boxes. And now I will say x plus y. Oh, it works. Right? It"
+    },
+    {
+      "start": 116.96,
+      "end": 121.58,
+      "text": "works. So we can say x has two, y has three, and we are adding them. Okay, so"
+    },
+    {
+      "start": 121.58,
+      "end": 125.76,
+      "text": "that's why we can we can use them. But then why they are called as variables."
+    },
+    {
+      "start": 126.24,
+      "end": 130.24,
+      "text": "Now, normally when you say variable, this term simply means you can change the"
+    },
+    {
+      "start": 130.24,
+      "end": 134.16,
+      "text": "value. Can we change here? Can I say x equal to nine? Can I change the"
+    },
+    {
+      "start": 134.16,
+      "end": 138.16,
+      "text": "value from two to nine? Let's try. And the moment I say enter, oh, it"
+    },
+    {
+      "start": 138.16,
+      "end": 146.6,
+      "text": "works. There was no error. But now if I try to do this, if I say x plus y, x will"
+    },
+    {
+      "start": 146.6,
+      "end": 151.34,
+      "text": "have a value which is two or nine. That's a question because we are changing it. But"
+    },
+    {
+      "start": 151.34,
+      "end": 156.68,
+      "text": "there's no error. Enter. Oh, you got 12. That means the value of x now is nine."
+    },
+    {
+      "start": 156.84,
+      "end": 160.2,
+      "text": "Okay, so we can change the value. And now we can justify that word as"
+    },
+    {
+      "start": 160.2,
+      "end": 163.68,
+      "text": "variables, right? So what is variable? It's a box where you can have a"
+    },
+    {
+      "start": 163.68,
+      "end": 167.46,
+      "text": "value. Now do we need to define the type of the variable? You don't need"
+    },
+    {
+      "start": 167.46,
+      "end": 171.02,
+      "text": "to. So the moment I assign a value, you can it automatically detects what"
+    },
+    {
+      "start": 171.02,
+      "end": 175.1,
+      "text": "type of value you are assigning. So in this case, it is integer. Now let's do"
+    },
+    {
+      "start": 175.1,
+      "end": 179.4,
+      "text": "this thing. What if I say x? And if I say enter, what it will do? So the moment"
+    },
+    {
+      "start": 179.4,
+      "end": 183.66,
+      "text": "you say x and enter, it will print the value of x. In this case, which is"
+    },
+    {
+      "start": 183.66,
+      "end": 187.66,
+      "text": "nine, right? What if I use a variable ABC? Now, of course, we have not"
+    },
+    {
+      "start": 187.66,
+      "end": 190.8,
+      "text": "defined this variable, right? And we are still trying to use it. The moment"
+    },
+    {
+      "start": 190.8,
+      "end": 196.22,
+      "text": "I say enter, you got an error. The error is it says name error ABC name"
+    },
+    {
+      "start": 196.22,
+      "end": 201.12,
+      "text": "ABC is not defined. And that's why we have not defined ABC yet. So if you are"
+    },
+    {
+      "start": 201.12,
+      "end": 204.34,
+      "text": "if you're using a variable which is not defined, so it will of course give you"
+    },
+    {
+      "start": 204.34,
+      "end": 208.0,
+      "text": "an error. Now I will do one more thing. I will say x plus 10. So of course, it"
+    },
+    {
+      "start": 208.0,
+      "end": 213.14,
+      "text": "will give you 19. Now, what if I want to add 19 with y? I mean, something"
+    },
+    {
+      "start": 213.14,
+      "end": 216.72,
+      "text": "this something in this way, I would say 19 plus y. But then if you think"
+    },
+    {
+      "start": 216.72,
+      "end": 221.02,
+      "text": "about this 19, this is the output of the previous operation, right? Now if"
+    },
+    {
+      "start": 221.02,
+      "end": 224.18,
+      "text": "you want to use the output of the previous operation, we can use"
+    },
+    {
+      "start": 224.18,
+      "end": 228.4,
+      "text": "underscore. So underscore represents the output of the previous operation. And if"
+    },
+    {
+      "start": 228.4,
+      "end": 232.48,
+      "text": "I say enter, you can see we got 22. So it is 19 plus three, which is 22. So they"
+    },
+    {
+      "start": 232.48,
+      "end": 235.4,
+      "text": "want this works, right? So this is amazing, you know, there are so many"
+    },
+    {
+      "start": 235.4,
+      "end": 239.16,
+      "text": "things you can you can work with this. So we can use variables for for"
+    },
+    {
+      "start": 239.16,
+      "end": 243.4,
+      "text": "numbers, right? So we can use it for float or integer. What about string?"
+    },
+    {
+      "start": 243.58,
+      "end": 247.16,
+      "text": "Can I use names with can I use variables with string or the string"
+    },
+    {
+      "start": 247.16,
+      "end": 251.88,
+      "text": "variable? Let's try. So I will get a variable as name. And I will use a"
+    },
+    {
+      "start": 251.88,
+      "end": 256.92,
+      "text": "name as YouTube. And if I say enter, oh, it works. And if I print name, we"
+    },
+    {
+      "start": 256.92,
+      "end": 261.86,
+      "text": "got YouTube, so it is perfectly working. So we can use string as well. So"
+    },
+    {
+      "start": 261.86,
+      "end": 266.38,
+      "text": "example, I can say name plus YouTube rocks. So you can you can see we got"
+    },
+    {
+      "start": 266.38,
+      "end": 270.18,
+      "text": "YouTube rocks. So it is name, which is YouTube plus rocks. Okay, this even"
+    },
+    {
+      "start": 270.18,
+      "end": 273.8,
+      "text": "this work, that's perfectly fine. In fact, let me just do an experiment. Can"
+    },
+    {
+      "start": 273.8,
+      "end": 278.78,
+      "text": "I say name and space rocks? Okay, this is not working. So we have to"
+    },
+    {
+      "start": 278.78,
+      "end": 282.06,
+      "text": "make sure that you put plus there, because if you have plus, then then only"
+    },
+    {
+      "start": 282.06,
+      "end": 285.52,
+      "text": "it will try to interpret that. But there's this one thing which is very"
+    },
+    {
+      "start": 285.52,
+      "end": 289.02,
+      "text": "fancy here, you know, so we'll talk about YouTube, it's a string, right? And"
+    },
+    {
+      "start": 289.02,
+      "end": 292.98,
+      "text": "it's a combination of characters. That means even if I want to fetch one"
+    },
+    {
+      "start": 292.98,
+      "end": 296.72,
+      "text": "character, it should be able we should be able to do that, right? And yes,"
+    },
+    {
+      "start": 296.76,
+      "end": 300.46,
+      "text": "we can do that. So if I say name, and if I want to fetch one character,"
+    },
+    {
+      "start": 300.54,
+      "end": 303.6,
+      "text": "how will I do that? So let's say if I have a YouTube here, and YouTube"
+    },
+    {
+      "start": 303.6,
+      "end": 307.22,
+      "text": "has seven letters or seven characters, if you when you break it down, it"
+    },
+    {
+      "start": 307.22,
+      "end": 310.5,
+      "text": "will create an array or you can say collection of characters, the"
+    },
+    {
+      "start": 310.5,
+      "end": 313.5,
+      "text": "numbering starts with zero, because normally in computers, numbering"
+    },
+    {
+      "start": 313.5,
+      "end": 317.46,
+      "text": "always starts with zero. So here, if you want to fetch it, we have to"
+    },
+    {
+      "start": 317.46,
+      "end": 321.0,
+      "text": "use a square bracket, and you have to mention zero. So we are"
+    },
+    {
+      "start": 321.0,
+      "end": 324.96,
+      "text": "specifying, hey, I want to fetch the first letter of names in this"
+    },
+    {
+      "start": 324.96,
+      "end": 330.18,
+      "text": "case, it is why how it works. So now I will fetch the last one,"
+    },
+    {
+      "start": 330.18,
+      "end": 335.2,
+      "text": "which is six, which is E in this case, I got E that works. Now I"
+    },
+    {
+      "start": 335.2,
+      "end": 339.16,
+      "text": "will fetch, let's say eight. See, we don't have eight, we don't have"
+    },
+    {
+      "start": 339.16,
+      "end": 341.98,
+      "text": "nine characters, right? We only have seven characters. So the"
+    },
+    {
+      "start": 341.98,
+      "end": 345.94,
+      "text": "first one is zero, the last one is six. How about eight? The moment"
+    },
+    {
+      "start": 345.94,
+      "end": 349.82,
+      "text": "you do that, it will give you an error. It says index error"
+    },
+    {
+      "start": 349.82,
+      "end": 352.64,
+      "text": "string index out of range. So of course, you're going out of"
+    },
+    {
+      "start": 352.64,
+      "end": 356.0,
+      "text": "your limit, right? So you cannot do that. Okay, can I use"
+    },
+    {
+      "start": 356.0,
+      "end": 360.2,
+      "text": "negative numbers? Let's try. I will use minus one. So I want"
+    },
+    {
+      "start": 360.2,
+      "end": 363.1,
+      "text": "to I want your guess here what you think it will what it"
+    },
+    {
+      "start": 363.1,
+      "end": 367.0,
+      "text": "will do. Come on, think about it. Okay, so let me just enter it"
+    },
+    {
+      "start": 367.0,
+      "end": 370.06,
+      "text": "and let's see what happens. So when I say enter, you got E. Okay,"
+    },
+    {
+      "start": 370.1,
+      "end": 373.8,
+      "text": "so the answer is when you say minus number, it will start from"
+    },
+    {
+      "start": 373.8,
+      "end": 377.14,
+      "text": "right to left. Okay, so it will, it will start with the"
+    },
+    {
+      "start": 377.14,
+      "end": 380.06,
+      "text": "ending. So which is E in this case, that means if I say"
+    },
+    {
+      "start": 380.06,
+      "end": 382.78,
+      "text": "minus two, it will give you the second last data, which is"
+    },
+    {
+      "start": 382.78,
+      "end": 386.58,
+      "text": "B. That's right. And if I say minus seven, which will be"
+    },
+    {
+      "start": 386.58,
+      "end": 389.64,
+      "text": "the first one, right, which is why it works, it goes in"
+    },
+    {
+      "start": 389.64,
+      "end": 392.26,
+      "text": "reverse order now. Now what if I want to print two characters,"
+    },
+    {
+      "start": 392.26,
+      "end": 396.72,
+      "text": "not one two. So let's say I want to print y and o. So in this"
+    },
+    {
+      "start": 396.72,
+      "end": 399.84,
+      "text": "case, I will say name, and I will start with zero. Of course, we"
+    },
+    {
+      "start": 399.84,
+      "end": 402.32,
+      "text": "want to print zero, the first character and the second"
+    },
+    {
+      "start": 402.32,
+      "end": 405.02,
+      "text": "character, right? That means we will give two. Now this two"
+    },
+    {
+      "start": 405.02,
+      "end": 406.9,
+      "text": "doesn't means number of characters, it means the"
+    },
+    {
+      "start": 406.9,
+      "end": 410.04,
+      "text": "ending. So I want to start with zero and one. So first"
+    },
+    {
+      "start": 410.04,
+      "end": 413.4,
+      "text": "two characters. And you can see we got y zero. The same"
+    },
+    {
+      "start": 413.4,
+      "end": 417.4,
+      "text": "thing if I do it for one colon four. So come on, guess."
+    },
+    {
+      "start": 417.94,
+      "end": 420.26,
+      "text": "So one means second character, right? So it will start"
+    },
+    {
+      "start": 420.26,
+      "end": 424.9,
+      "text": "with O and it will end at three because you cannot include"
+    },
+    {
+      "start": 424.9,
+      "end": 429.44,
+      "text": "four. So it will it is exclusive of four. So it is one, which"
+    },
+    {
+      "start": 429.44,
+      "end": 435.76,
+      "text": "is O, U and T. Oh, it works. We got out. Yes. Yes, it works."
+    },
+    {
+      "start": 436.18,
+      "end": 439.98,
+      "text": "Now what if I specify only one and colon if I don't specify"
+    },
+    {
+      "start": 439.98,
+      "end": 443.02,
+      "text": "the ending what happens in this case, it will start with"
+    },
+    {
+      "start": 443.02,
+      "end": 446.46,
+      "text": "one and it will come it will go till the end. Okay, that"
+    },
+    {
+      "start": 446.46,
+      "end": 448.34,
+      "text": "house works. So if you don't specify the ending part, it"
+    },
+    {
+      "start": 448.34,
+      "end": 451.34,
+      "text": "will go in that way. What if I specify the ending part but not"
+    },
+    {
+      "start": 451.34,
+      "end": 455.06,
+      "text": "the starting point? Example, if I say, if I if I keep it blank"
+    },
+    {
+      "start": 455.06,
+      "end": 458.58,
+      "text": "and after colon, I will say four. Now in this case, it will"
+    },
+    {
+      "start": 458.58,
+      "end": 461.12,
+      "text": "start with the first letter and it will end at three, which"
+    },
+    {
+      "start": 461.12,
+      "end": 464.82,
+      "text": "is before four. And that's why you got y or U T. So this"
+    },
+    {
+      "start": 464.82,
+      "end": 467.74,
+      "text": "fun, right? Okay, what else we can do here? What if I"
+    },
+    {
+      "start": 467.74,
+      "end": 471.18,
+      "text": "specify name, and I will give wrong values, I will say"
+    },
+    {
+      "start": 471.18,
+      "end": 474.44,
+      "text": "three colon. Of course, we don't have 10 characters,"
+    },
+    {
+      "start": 474.58,
+      "end": 477.8,
+      "text": "right? Now in this case, it will end at the last one,"
+    },
+    {
+      "start": 477.8,
+      "end": 480.22,
+      "text": "which is available. So it will not give you any error in this"
+    },
+    {
+      "start": 480.22,
+      "end": 485.02,
+      "text": "at this case, you can say we got T U B E to start with key and"
+    },
+    {
+      "start": 485.02,
+      "end": 487.18,
+      "text": "then it's end at E because we don't have any other"
+    },
+    {
+      "start": 487.18,
+      "end": 489.4,
+      "text": "characters. So if you don't, if you want to avoid errors,"
+    },
+    {
+      "start": 489.48,
+      "end": 492.8,
+      "text": "this is what this one way. Okay, now can I change the"
+    },
+    {
+      "start": 492.8,
+      "end": 496.0,
+      "text": "later example? I don't want it to be YouTube. I want to"
+    },
+    {
+      "start": 496.0,
+      "end": 502.94,
+      "text": "I want it to be my tube. So I will say name from zero to"
+    },
+    {
+      "start": 502.94,
+      "end": 508.06,
+      "text": "three. I want to change this with my, can I do that? So I'm"
+    },
+    {
+      "start": 508.06,
+      "end": 511.42,
+      "text": "changing y or U to my the moment I say enter, you've got an"
+    },
+    {
+      "start": 511.42,
+      "end": 514.98,
+      "text": "error. It says string object does not support item"
+    },
+    {
+      "start": 514.98,
+      "end": 517.92,
+      "text": "assignment. So the thing is, once you assign the value, you"
+    },
+    {
+      "start": 517.92,
+      "end": 520.8,
+      "text": "cannot change it, not even for one character. If I say"
+    },
+    {
+      "start": 520.8,
+      "end": 523.54,
+      "text": "zero, I want to change the first character to the odd"
+    },
+    {
+      "start": 523.54,
+      "end": 526.16,
+      "text": "tube. Even this will not work. You can see we got the"
+    },
+    {
+      "start": 526.16,
+      "end": 528.02,
+      "text": "error. So you cannot change the value. That means"
+    },
+    {
+      "start": 528.02,
+      "end": 531.52,
+      "text": "strings in Python is immutable. You cannot change the"
+    },
+    {
+      "start": 531.52,
+      "end": 534.88,
+      "text": "value of it. That's awesome. Right? But then that"
+    },
+    {
+      "start": 534.88,
+      "end": 537.02,
+      "text": "doesn't mean you cannot, you cannot change while"
+    },
+    {
+      "start": 537.02,
+      "end": 539.74,
+      "text": "printing. Example, if I, if I want to print my tube, you"
+    },
+    {
+      "start": 539.74,
+      "end": 543.96,
+      "text": "can do that. So first I will print my and then I will"
+    },
+    {
+      "start": 543.96,
+      "end": 547.46,
+      "text": "give up, I will give a space and then plus, I want to"
+    },
+    {
+      "start": 547.46,
+      "end": 549.68,
+      "text": "print tube, right? So in that case, I will say three"
+    },
+    {
+      "start": 549.68,
+      "end": 553.46,
+      "text": "colon six, or maybe the ending part. So you can"
+    },
+    {
+      "start": 553.46,
+      "end": 555.62,
+      "text": "see we got my tube. If you don't want space, you"
+    },
+    {
+      "start": 555.62,
+      "end": 557.52,
+      "text": "can do that. You can say my and then without space,"
+    },
+    {
+      "start": 557.6,
+      "end": 560.52,
+      "text": "you can type it too. So this works. Yeah. So this"
+    },
+    {
+      "start": 560.52,
+      "end": 563.1,
+      "text": "is how you work with string. You work with"
+    },
+    {
+      "start": 563.1,
+      "end": 565.5,
+      "text": "variables, right? You can have a number of variables. You"
+    },
+    {
+      "start": 565.5,
+      "end": 567.66,
+      "text": "can have a float variables and you can have a string"
+    },
+    {
+      "start": 567.66,
+      "end": 570.38,
+      "text": "variable as well. In fact, with string, we have one"
+    },
+    {
+      "start": 570.38,
+      "end": 573.02,
+      "text": "more thing. Let's say if you define a string, which"
+    },
+    {
+      "start": 573.02,
+      "end": 577.02,
+      "text": "is, let's say, my name is a variable and my name"
+    },
+    {
+      "start": 577.02,
+      "end": 580.34,
+      "text": "here is Navin Reddy. And if I want to know the"
+    },
+    {
+      "start": 580.34,
+      "end": 582.88,
+      "text": "length of my name, we can do that. So we have a"
+    },
+    {
+      "start": 582.88,
+      "end": 585.86,
+      "text": "length function and we can pass my name. As I"
+    },
+    {
+      "start": 585.86,
+      "end": 587.88,
+      "text": "mentioned, there are some inbuilt functions"
+    },
+    {
+      "start": 587.88,
+      "end": 592.42,
+      "text": "available in Python. And one of them is length. So you"
+    },
+    {
+      "start": 592.42,
+      "end": 595.68,
+      "text": "can see we got 11 characters. So yeah, that's it. That's"
+    },
+    {
+      "start": 595.68,
+      "end": 597.26,
+      "text": "it from this video where we have talked about"
+    },
+    {
+      "start": 597.26,
+      "end": 600.58,
+      "text": "different variables, assignments and stuff. So I"
+    },
+    {
+      "start": 600.58,
+      "end": 602.48,
+      "text": "hope you are enjoying my session. Let me know in"
+    },
+    {
+      "start": 602.48,
+      "end": 604.44,
+      "text": "the comment section and do give me a like button"
+    },
+    {
+      "start": 604.44,
+      "end": 605.48,
+      "text": "if you're enjoying it. Thank you so much for"
+    },
+    {
+      "start": 605.48,
+      "end": 606.84,
+      "text": "watching, everyone. Bye."
+    }
+  ]
+}

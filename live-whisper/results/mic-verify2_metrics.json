@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "duration_s": 23.55,
+    "segment_count": 0,
+    "avg_segment_interval_s": null,
+    "cpu_avg_percent": 100.0,
+    "cpu_max_percent": 100.0,
+    "ram_avg_mb": 60.7,
+    "ram_max_mb": 61.7,
+    "error_count": 0,
+    "errors": []
+  },
+  "samples": [
+    {
+      "elapsed_s": 1.31,
+      "cpu_percent": 100.0,
+      "ram_mb": 59.7,
+      "system_ram_percent": 57.2
+    },
+    {
+      "elapsed_s": 16.43,
+      "cpu_percent": 100.0,
+      "ram_mb": 61.7,
+      "system_ram_percent": 59.7
+    }
+  ]
+}

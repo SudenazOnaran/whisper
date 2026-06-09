@@ -1,0 +1,202 @@
+Bir sonraki videoda görüşürüz, hoşçakalın.
+Merhaba Yılmaz Bey. Evet, sonunda geldi.
+Evet, evet geliyor ses şu anda.
+Evet tatlı.
+Senden önce sanın geldi ha.
+Şimdi ben sana direkt hemen hızlıca başlayayım.
+Bir ekran paylaşıyorum. Tamam.
+Ne yapmak istediğimi anlatayım.
+Sonra DGT'yi konuşalım.
+Şimdi görüyor musun ekranı mı?
+Görüyorum.
+Daha gelmedi ama başlatılıyor.
+Tamam burası kalsın.
+Şimdi burada bir şey söyleyeceğim.
+Şimdi rol vererek bir şey hazırlattım.
+Evet, evet kullanılır ya baya.
+Ondan zaten deneyelim, boşa denemeyelim diye aklıma geldi.
+Bunları da ne yaptım?
+Şurada mobili yukarıma trendler arama yaptım.
+Web aramasını açarak arama yapıyorum.
+Çeşit çepeydi de.
+Bunu cemin ayda da yapabilirsin.
+Hatta arama sonuç verilerine raporlarına bakarak arama trendlerine bakarak bir araştırma yaptı diyebilirsin.
+Web araması için en iyi seçerlik işte şey yazdım.
+Şöyle bana üretilecek global trend olan mobili yukarıma örneklerini bana paylaşman istiyorum.
+Araştırma yaptığı paylaş yazdım.
+Böyle sıralama vermiş.
+Bunları verdi sonrasında dedim ki bunlar değil de genelde kolay üretilebilir uygamı örnekleriyle ilginiyorum yazdım.
+Böyle şeyler çıkarttı sonra vesaire.
+Şimdi şurada nerede ol?
+Şuradan açayım.
+Şöyle bir prompt verdi ya.
+Bunu kopyalıyoruz bildiğin mantık.
+Daha yazıyor.
+Bu arada bu şekilde prompt hazırlatarak uygulama yaptırtmak aşırı derecede başarılı oluyor.
+Haberin olsun.
+Yani çok daha iyi oluyor.
+Hatta ben şöyle bir şey yaptım bu tip uygulamalarda.
+Örnek bir daha orada da göstereyim.
+Bugünki saatte platform mantığı ile yazdım dediğim tekvando ucu bir arkadaş vardı.
+Onun benim kokuldan beri arkadaşım.
+Ben de tekvando yapıyorum bu arada.
+Şöyle bir onun spor salonu için bir uygulama hazırladım.
+Kendine gelsin bir marisi.
+Hepi de biliyorum burada gösteriyor.
+Test falan dedi biliyorum canlıda.
+Aşırı iyi.
+Biliyorsun değil mi?
+Bu test kısmını yapmadım da.
+Buradan git abak sırf böyle alıyorduk biz projeyi.
+Yani şu an testi de açılmış belki o zaman yoktu.
+Şu an test de var yani.
+Sağ bu yüzlük.
+Bayağı görebiliyorsun.
+Burada beklentine kadar yazdırabiliyorsun.
+Ben bayağı ciddi bir şey yazdıktım bu şefileşe.
+Şöyle göstereyim mimarisini.
+Burada kol mimarisi var.
+Bak beklentten tutayla şey var.
+Bu epin hali.
+Yazılmış olan ep önce.
+Şurada beklent mimarisi.
+Önü yüzce yazdıktım.
+PHP tabanlı bir websitei diye düşün dedim.
+Önü yüzleri ve beklent tarafında.
+Böyle ilerledim.
+Bayağı da hazırlattım orada.
+Sev uyumlu yaptırdım.
+Güvenlik tanıması yaptırdım.
+Bayağı bir şey çalıştırdım yani.
+Aynı alan üzerinde de tekrardan tamam mı?
+Komple bir el çıkarttım.
+Burada da benzerini yapacağız şubiçsin.
+Bayağı yavaş geçti.
+Şuna bakayım.
+Açıldı mı?
+Bunu teste edeceğim.
+Bu kodu indiriyorsun.
+Lokale de indirebiliyorsun.
+Lokale indirip teste edebiliyorsun zaten.
+Epler için expert kullandığınız mı cep telefonundan?
+Ben o kullanmayı denedim de açılmadım o ya.
+Hiç kullanamadın onu.
+Ben onun sebebini sana söyleyeyim.
+Ben de uğraşıyordum.
+Geçende mobili uyumlama geliştirme işinde.
+Bir çözdüm var ya.
+Sana şöyle söyleyeyim.
+Aşır derecede hızlı derecede mobili uyumlama geliştirebiliyorsun.
+O şekliyle yaparsan.
+Göstereyim sen onu da nasıl yaptığının mantığı iken.
+Mesela böyle bir app yaptı.
+Kuzancada şifreli falan gidiş var.
+İşte burada admin yönetici paneli.
+İşte iddiat falan hatırlatması yapıyor.
+Öğrencilere.
+Farklı spor dağları da var onda.
+O spor dağlarını da ekleyebiliyor.
+Yüz sporcu defteri diye bir şey var böyle mesela.
+Buraya da şey.
+Ben eğitim videolarına kadar ekledim.
+Bayağı bir şey ekledim.
+Eğitmenler vesaireler.
+Bir sürü şey var.
+Öğrenciler.
+Perfomans ve gelişim takibi.
+Bir çok şey var.
+Hangi spor dağında ise.
+Hepsini yazıyor.
+Yoklamalarını alabiliyor.
+Bir sürü özellik ekledim böyle.
+Geliştirecek yani zamanla daha da geliştirecek yani bu.
+Ama.
+Anaş ablam kotu yapısını verdiği için.
+İşi çok kolaylaştırıyor.
+Şimdi şeyde de.
+Bu.
+Exploda neden çalışmıyor.
+Expo'nun sürümüyle cep telefonundaki.
+İndirdiğin sürümü izalaman lazım.
+Tamam mı?
+Evet.
+Orada sürümünün olduğuna bakman lazım.
+Ben geçende onun için uğraştım.
+En son şuraya bir expo izalama diye.
+Bir şey yapmıştım sanki.
+İndirdim şuraya.
+Şöyle bir şey hazırladım mesela.
+Bunu sanatayım.
+Ben de.
+Sdk54'le.
+Telefonda gözüküyordu.
+Sen telefonu aç bakayım.
+Hangi sürümü var?
+Bilmiyorum.
+Telefonundaki.
+Sürümü bilgisayardaki.
+Kodlama yaptığın.
+Mobili uygamadaki.
+Sürümle izalaman lazım.
+54.
+Bu şu benimle.
+Genelde 54 iniyor zaten.
+Ama.
+Mobili uygamayı şey yapıyor.
+Bunu direkt kullandığımda.
+Çalıştırabileceksin.
+Bazen şeyden çalışmıyor.
+Aynı internete bağlı olsan da getirmiyor.
+Onu da tünellemek dediğinden bir yöntem var.
+Tünelleyerek bir komutu var.
+O komutu deniyorsun.
+O komutu da yazarım sana ben.
+Tamam mı?
+Bunu da atacağım sana.
+Bu tanem altıya yazıyorsun.
+Uygulamayı buna göre yazdırılacak senin.
+O zaman direkt tıkladığında açabileceğim.
+Mobili uygamayı.
+Çok ciddi.
+Aşırı iyi geliştirebiliyorsun.
+Öyle diyorsun.
+Ciddi faydası fayda oluyor.
+Ben.
+Benim LP sisteminin uygulamasıyla.
+Mobili uygamalarını bitirdim.
+İki gün de bitirdim.
+Koca uygulamalar bu arada.
+İçerinin içinde
+devalsan modüller var.
+İmkansız bitmez de başka bir türlü yani.
+Çok faydası oluyor.
+Şimdi ben diyorum ki.
+Yapıyı böyle belirledik az çok.
+Şuradan bir test yapalım.
+Şundan bununla başlayalım.
+Şunu aldırdık.
+Tamam mı?
+Şurada
+bu hep dedik.
+Seçtik.
+Yazdık talimatı.
+Başladı o epey geliştirmeye.
+Şimdi bazı uygulamalar için.
+Bekent yazılması gerekir.
+Tamam mı?
+Bekentten kastettiğim.
+Bir data beysi olması lazım.
+Atıyorum nedir?
+Masa üstü web uygulamasını da.
+Çalışıyor olması lazım.
+Orayı.
+Burada da yaptırtabiliyorsun.
+Şimdi bu talimatı buna verdik ya.
+Bu talimatı verdik ya.
+Şuraya bir daha geliyorum.
+Ne yazıyorum biliyor musun?
+Bu geliştirdiğim.
+Mobile uygulamanım.
+Next.
+CS.
+Kaban.

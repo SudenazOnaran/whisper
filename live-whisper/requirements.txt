@@ -1,0 +1,4 @@
+# WhisperLive (installed from vendor/)
+PyAudio
+psutil
+websocket-client

@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "duration_s": 197.87,
+    "segment_count": 0,
+    "avg_segment_interval_s": null,
+    "cpu_avg_percent": 83.1,
+    "cpu_max_percent": 100.0,
+    "ram_avg_mb": 61.7,
+    "ram_max_mb": 62.7,
+    "error_count": 0,
+    "errors": []
+  },
+  "samples": [
+    {
+      "elapsed_s": 1.25,
+      "cpu_percent": 95.1,
+      "ram_mb": 59.9,
+      "system_ram_percent": 50.6
+    },
+    {
+      "elapsed_s": 31.41,
+      "cpu_percent": 84.2,
+      "ram_mb": 62.6,
+      "system_ram_percent": 49.2
+    },
+    {
+      "elapsed_s": 61.51,
+      "cpu_percent": 59.2,
+      "ram_mb": 61.8,
+      "system_ram_percent": 49.1
+    },
+    {
+      "elapsed_s": 91.62,
+      "cpu_percent": 66.1,
+      "ram_mb": 62.7,
+      "system_ram_percent": 48.9
+    },
+    {
+      "elapsed_s": 121.72,
+      "cpu_percent": 79.2,
+      "ram_mb": 61.0,
+      "system_ram_percent": 49.9
+    },
+    {
+      "elapsed_s": 151.82,
+      "cpu_percent": 98.2,
+      "ram_mb": 61.9,
+      "system_ram_percent": 51.8
+    },
+    {
+      "elapsed_s": 181.94,
+      "cpu_percent": 100.0,
+      "ram_mb": 61.9,
+      "system_ram_percent": 53.9
+    }
+  ]
+}
