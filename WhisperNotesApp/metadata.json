@@ -1,0 +1,6 @@
+{
+  "name": "AI Lecture Notes",
+  "description": "Convert speech to text and generate structured notes, summaries, flashcards, and quizzes from long lectures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
