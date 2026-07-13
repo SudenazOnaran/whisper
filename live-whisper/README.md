@@ -1,29 +1,35 @@
-# live-whisper — WhisperLive PoC
+# live-whisper — Bağımsız WhisperLive Deney Klasörü
 
-Üniversite ders asistanı mobil uygulaması için gerçek zamanlı transkripsiyon değerlendirme projesi.
+> **Bu klasör ana projeyle bağlantısız bir deneydir.**
+> Mobil uygulamalar `backend/server.py` üzerinden çalışır.
 
-## Hızlı Başlangıç
+## Ana proje mimarisi
 
-```powershell
-# Terminal 1 — Sunucu
-python start_server.py
-
-# Terminal 2 — Canlı mikrofon (Türkçe)
-python -m client.live_client --lang tr --lecture-id my-lecture
-
-# Terminal 2 — Dosya simülasyonu (İngilizce)
-python -m client.lecture_simulation --input "..\audio\dosya.mp3" --lang en --lecture-id test-en
+```
+backend/server.py  (port 8000)
+├── POST /transcribe  ← Dosya yükleme  (WhisperNotesApp + Expo Go)
+└── WS   /ws/live     ← Canlı PCM     (WhisperNotesApp Android, gerçek zamanlı)
 ```
 
-## Dokümantasyon
+## Bu klasör ne?
 
-- [SETUP.md](SETUP.md) — Kurulum adımları
-- [REPORT.md](REPORT.md) — Benchmark ve mobil uygulama fizibilite raporu
+WhisperLive (Collabora) kütüphanesini test etmek için oluşturulmuş PoC.
+Port **9090** üzerinde çalışır, ana projeden bağımsızdır.
 
-## Özellikler
+## Kullanmak istersen
 
-- WhisperLive WebSocket sunucusu (`faster_whisper` backend)
-- Canlı mikrofon client
-- Ders simülasyonu (dosya streaming)
-- JSON transcript persistence (ses kaydedilmez)
-- CPU/RAM/latency metrikleri
+```powershell
+# WhisperLive kütüphanesini klonla
+git clone --depth 1 https://github.com/collabora/WhisperLive.git vendor/WhisperLive
+
+# Bağımlılıkları kur
+pip install PyAudio soundfile librosa scipy
+
+# Sunucuyu başlat (port 9090)
+python start_server.py
+
+# İstemciyi başlat (ayrı terminalde)
+python -m client.live_client --lang tr --lecture-id test-001
+```
+
+Detaylar: `SETUP.md`

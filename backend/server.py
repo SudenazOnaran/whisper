@@ -40,27 +40,38 @@ def get_model(size: str = "small") -> WhisperModel:
     return _models[size]
 
 
-def extract_audio_if_video(input_path: str) -> tuple[str, bool]:
-    """Video ise ses dosyasına çevir. (path, should_delete) döndürür."""
+def normalize_to_wav(input_path: str) -> tuple[str, bool]:
+    """
+    Her dosyayı 16kHz mono WAV'a normalize et.
+    - Video → ses çıkar + normalize
+    - M4A/MP3/OGG → WAV'a çevir (Whisper PCM ister, AAC decoder yükü atar)
+    - WAV → 16kHz mono değilse yeniden örnekle
+    Döner: (wav_path, should_delete)
+    """
     suffix = Path(input_path).suffix.lower()
-    if suffix in VIDEO_EXTENSIONS:
-        out = tempfile.mktemp(suffix=".wav")
-        cmd = [
-            "ffmpeg", "-y", "-i", input_path,
-            "-vn", "-acodec", "pcm_s16le",
-            "-ar", "16000", "-ac", "1", out
-        ]
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        if result.returncode != 0:
-            raise RuntimeError(f"FFmpeg hatası: {result.stderr}")
-        return out, True
-    return input_path, False
+    # Zaten 16kHz WAV olduğunu bilemeyiz → her zaman normalize et
+    out = tempfile.mktemp(suffix=".wav")
+    cmd = [
+        "ffmpeg", "-y", "-i", input_path,
+        "-vn",                   # video kanalını at
+        "-acodec", "pcm_s16le",  # 16-bit PCM
+        "-ar", "16000",          # 16 kHz — Whisper'ın beklediği örnekleme hızı
+        "-ac", "1",              # mono
+        out
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        # FFmpeg başarısız → orijinali dene
+        print(f"[Warn] FFmpeg normalize başarısız, orijinal kullanılıyor: {result.stderr[:200]}")
+        return input_path, False
+    return out, True
 
 
 @app.on_event("startup")
 async def startup():
-    print("[Server] Başlatılıyor... Whisper modeli önceden yükleniyor (small)")
-    get_model("small")
+    print("[Server] Başlatılıyor... Whisper modelleri önceden yükleniyor")
+    get_model("tiny")   # canlı kayıt için — hızlı (~1-2 sn/chunk)
+    get_model("small")  # dosya yükleme için — dengeli kalite
     print("[Server] Hazır! Port 8000")
 
 
@@ -91,12 +102,22 @@ async def transcribe(
 
         print(f"[Transcribe] Dosya alındı: {file.filename} ({len(content)//1024} KB)")
 
-        # Video ise sesi çıkar
-        audio_path, should_delete_audio = extract_audio_if_video(tmp_input)
+        # Her dosyayı 16kHz mono WAV'a normalize et (M4A, MP3, video dahil)
+        audio_path, should_delete_audio = normalize_to_wav(tmp_input)
 
-        # Whisper ile transkript
+        # Whisper parametreleri
         model = get_model(model_size)
-        kwargs: dict = {"beam_size": 5, "vad_filter": True}
+        kwargs: dict = {
+            "beam_size": 5,
+            # VAD: kısa chunklarda agresif VAD sesi kesebilir.
+            # Telefon kayıtları için daha yumuşak eşik kullanıyoruz.
+            "vad_filter": True,
+            "vad_parameters": {
+                "min_silence_duration_ms": 500,   # 300→500 ms: kısa sessizlikte kesmez
+                "threshold": 0.3,                  # 0.5→0.3: daha düşük eşik, daha fazla ses yakalar
+                "speech_pad_ms": 400,              # konuşma başı/sonu dolgusu
+            },
+        }
         if language and language not in ("auto", ""):
             kwargs["language"] = language
 
@@ -185,7 +206,11 @@ async def live_transcription(websocket: WebSocket):
                             tmp_path,
                             beam_size=3,
                             vad_filter=True,
-                            vad_parameters={"min_silence_duration_ms": 300},
+                            vad_parameters={
+                                "min_silence_duration_ms": 500,
+                                "threshold": 0.3,
+                                "speech_pad_ms": 400,
+                            },
                         )
                         texts = [s.text.strip() for s in segs if s.text.strip()]
                         if texts:
@@ -213,7 +238,8 @@ async def live_transcription(websocket: WebSocket):
                     audio_buffer.clear()
                     try:
                         segs, info = model.transcribe(
-                            tmp_path, beam_size=3, vad_filter=True
+                            tmp_path, beam_size=3, vad_filter=True,
+                            vad_parameters={"min_silence_duration_ms": 500, "threshold": 0.3}
                         )
                         texts = [s.text.strip() for s in segs if s.text.strip()]
                         if texts:

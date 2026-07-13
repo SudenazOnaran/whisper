@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Whisper Notes",
+    "slug": "whisper-notes",
+    "version": "1.0.0",
+    "scheme": "whispernotes",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.whisper.notes",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Ders kaydı için mikrofon erişimi gereklidir.",
+        "NSDocumentsFolderUsageDescription": "Ses dosyalarını seçmek için erişim gereklidir."
+      }
+    },
+    "android": {
+      "package": "com.whisper.notes",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-audio",
+      "expo-font",
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

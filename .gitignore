@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg
+
+# Backend models (büyük dosyalar, HuggingFace'den indirilir)
+backend/models/
+models/
+
+# Test audio ve transcript çıktıları
+audio/
+transcripts/
+
+# Ortam değişkenleri
+.env
+!.env.example
+
+# Büyük ZIP/arşiv dosyaları (test verileri)
+*.zip
+*.tar.gz
+*.tar
+
+# Android build çıktıları
+WhisperNotesApp/.gradle/
+WhisperNotesApp/build/
+WhisperNotesApp/app/build/
+WhisperNotesApp/local.properties
+WhisperNotesApp/*.jks
+WhisperNotesApp/*.keystore
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Expo / React Native
+WhisperNotesExpo/node_modules/
+WhisperNotesExpo/.expo/
+WhisperNotesExpo/dist/
+WhisperNotesExpo/.env

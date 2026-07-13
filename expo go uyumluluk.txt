@@ -1,0 +1,162 @@
+# Expo SDK 54 Stabilizasyon ve Expo Go Uyumluluk Talimatı
+
+Sen kıdemli bir React Native + Expo yazılım mimarısın.
+
+Görevin:
+Mevcut Expo tabanlı mobil uygulamayı Expo SDK 54 ile tamamen uyumlu, stabil ve Expo Go üzerinden sorunsuz çalışabilir hale getirmek.
+
+AMAÇ:
+Projeyi Android ve iOS cihazlarda Expo Go ile hızlı test edilebilir hale getirmek.
+Tüm dependency, Metro, Babel, Expo Router, NativeWind ve React Native sürüm uyumsuzluklarını çözmek.
+Development ortamını stabil hale getirmek.
+
+ÖNEMLİ KURALLAR:
+
+* Uygulamanın ekranlarını değiştirme.
+* UI/UX tasarımını değiştirme.
+* API bağlantılarını değiştirme.
+* Business logic’i değiştirme.
+* Routing yapısını bozma.
+* Sadece Expo SDK 54 uyumluluk, dependency, Metro, Babel ve build altyapısını düzelt.
+* Mevcut Expo Router mimarisini koru.
+* NativeWind/Tailwind yapısını bozma.
+* Kod silme yerine uyumlu hale getir.
+
+YAPILACAKLAR:
+
+## 1. Expo SDK Stabilizasyonu
+
+Projeyi Expo SDK 54 standardına geçir.
+
+Beklenen temel sürümler:
+
+* expo: ~54.x
+* react: 19.1.x
+* react-native: 0.81.5
+
+Expo SDK 54 ile uyumsuz paketleri düzelt.
+
+## 2. Dependency Temizliği
+
+Aşağıdakileri kontrol et:
+
+* duplicate native dependencies
+* duplicate expo packages
+* eski Expo sürüm kalıntıları
+* peer dependency eksikleri
+
+Eksik dependency’leri kur:
+
+* expo-font
+* react-native-worklets
+* babel-preset-expo
+
+Gereksiz veya çakışan paketleri kaldır.
+
+## 3. Metro Yapılandırması
+
+metro.config.js dosyasını Expo standardına uygun hale getir.
+
+Kurallar:
+
+* expo/metro-config extend edilmeli
+* NativeWind desteği korunmalı
+* Tailwind desteği bozulmamalı
+* custom resolver varsa Expo config üzerine kurulmalı
+
+Amaç:
+Expo Go içinde Metro bundler hatası almamak.
+
+## 4. Babel Yapılandırması
+
+babel.config.js dosyasını kontrol et.
+
+Kurallar:
+
+* presets içinde babel-preset-expo kullanılmalı
+* Expo Router uyumlu olmalı
+* react-native-reanimated plugin sırası doğru olmalı
+* eski Babel plugin kalıntıları temizlenmeli
+
+Amaç:
+Bundling sırasında:
+
+* babel-preset-expo
+* reanimated
+* router
+  kaynaklı crash olmaması.
+
+## 5. Expo Router Kontrolü
+
+Expo Router yapısını kontrol et.
+
+Kurallar:
+
+* src/app yapısı korunmalı
+* entry point bozulmamalı
+* expo-router/entry korunmalı
+* typed routes conflict varsa çöz
+
+## 6. app.json / app.config Stabilizasyonu
+
+Config dosyasını Expo SDK 54 uyumlu hale getir.
+
+Korunması gereken alanlar:
+
+* name
+* slug
+* scheme
+* version
+* icon
+* splash
+* ios.bundleIdentifier
+* android.package
+
+Hatalı veya deprecated alanları temizle.
+
+## 7. Expo Doctor Temizliği
+
+Aşağıdaki komut sonrası kritik hata kalmamalı:
+
+npx expo-doctor
+
+Warning olabilir ama:
+
+* dependency mismatch
+* duplicate native module
+* missing peer dependency
+* metro config
+* babel config
+  hataları tamamen çözülmeli.
+
+## 8. Expo Go Testi
+
+Aşağıdaki akış sorunsuz çalışmalı:
+
+npx expo start -c
+
+Beklenen:
+
+* QR açılmalı
+* Android Expo Go çalışmalı
+* iPhone Expo Go çalışmalı
+* Metro bundling hatası olmamalı
+* Babel hatası olmamalı
+* Native module crash olmamalı
+
+## 9. Final Teslim
+
+Aşağıdakileri eksiksiz ver:
+
+1. Düzeltilmiş package.json
+2. Düzeltilmiş metro.config.js
+3. Düzeltilmiş babel.config.js
+4. Düzeltilmiş app.json veya app.config.ts
+5. Kurulum komutları
+6. Çalıştırma komutları
+7. Yapılan değişikliklerin teknik özeti
+
+ÖNEMLİ:
+Kısaltılmış kod verme.
+Dosyaları tam içerik olarak ver.
+Eski/yeni kod blokları şeklinde açık şekilde paylaş.
