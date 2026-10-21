@@ -47,3 +47,8 @@ WhisperNotesExpo/node_modules/
 WhisperNotesExpo/.expo/
 WhisperNotesExpo/dist/
 WhisperNotesExpo/.env
+
+# Test audio / generated outputs
+*.wav
+live-whisper/results/
+__pycache__/

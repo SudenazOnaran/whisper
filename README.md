@@ -1,4 +1,19 @@
-# Whisper Notes
+# 🎙️ Whisper Notes
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white)
+
+> Ders, toplantı ve ses kayıtlarını **faster-whisper** ile metne dönüştüren; dosya yükleme ve canlı (WebSocket) transkripsiyon destekleyen mobil not uygulaması.
+
+## ✨ Özellikler
+
+- 📁 Ses / video dosyası yükleyip transkript alma
+- 🔴 WebSocket üzerinden gerçek zamanlı canlı transkripsiyon
+- 🌍 Türkçe, İngilizce ve otomatik dil algılama (100+ dil)
+- 📱 İki istemci: native Android (Kotlin / Compose) ve Expo Go (React Native)
+- ☁️ Railway / Render için hazır deploy yapılandırması
 
 Ses ve video dosyalarını yapay zeka ile anında metne dönüştüren Android uygulaması.  
 Backend: **faster-whisper** · Android: **Kotlin / Jetpack Compose**
@@ -15,7 +30,9 @@ faster-whisper/
 │   ├── Dockerfile
 │   ├── railway.toml  ← Railway deploy config
 │   └── render.yaml   ← Render deploy config
-└── WhisperNotesApp/  ← Android uygulaması
+├── WhisperNotesApp/  ← Android uygulaması (Kotlin / Compose)
+├── WhisperNotesExpo/ ← Expo Go uygulaması (React Native)
+└── live-whisper/     ← Bağımsız WhisperLive deneyi
 ```
 
 ---
@@ -126,3 +143,7 @@ Video: `mp4` `mkv` `avi` `mov` `webm`
 ## Desteklenen Diller
 
 `tr` Türkçe · `en` İngilizce · `auto` Otomatik algılama (100+ dil)
+
+## 👩‍💻 Geliştirici
+
+**Sudenaz Onaran** — [@SudenazOnaran](https://github.com/SudenazOnaran)
